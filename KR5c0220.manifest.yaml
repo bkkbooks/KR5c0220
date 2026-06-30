@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0220/v1
+canonical_location: https://kanripo.org/bkk/KR5c0220/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 莊周氣訣解
+  identifiers:
+    alt_id:
+    - DZ0823
+  date: '2015-08-29 00:54:38.461797'
+  source:
+    repository: kanripo
+    path: KR5c0220
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0220_000.yaml, hash: 'sha256:6de4176479d9329d3564ad58047fba983963e7718110053826c84ddc1624ef9b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0220_000.markers.yaml, hash: 'sha256:0b3de9458f8db043dd354569c0f176dbc2ab98691bd9d25f9afdde4b08378852'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0220_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1294
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0565b7e118b6b6c132896a49d2b46b7f8cd9307ab8c3abc769d1ea65dbf7ecc1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
